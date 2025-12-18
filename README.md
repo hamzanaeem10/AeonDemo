@@ -56,20 +56,7 @@ To run this project locally:
 └── metadata.json           # Project metadata
 ```
 
-## 🔌 Backend Integration (Waitlist)
 
-Currently, the **Waitlist Form** (`components/Sections/Waitlist.tsx`) is set to **simulation mode**. It logs data to the console (`console.log`) and shows a success message after a fake delay.
-
-To collect real emails, you can integrate:
-1.  **Formspree**: Replace the form submit handler with a Formspree endpoint.
-2.  **Supabase/Firebase**: Connect the `handleSubmit` function to a database SDK.
-3.  **API**: Point the fetch request to your own backend server.
-
-## 🎨 Customization
-
-- **Branding**: Change `APP_NAME` in `constants.ts`.
-- **Colors**: Modified via the `tailwind.config` script inside `index.html`.
-- **Hero Particles**: Adjust particle count and speed in `components/Sections/Hero.tsx`.
 
 ## 📄 License
 
