@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, AudioWaveform } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { APP_NAME, NAV_ITEMS } from '../../constants';
 import Button from '../ui/Button';
+import Logo from '../ui/Logo';
 
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,8 +32,9 @@ const Navbar: React.FC = () => {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         <div className="flex items-center gap-3 cursor-pointer group" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-white to-zinc-400 flex items-center justify-center text-black shadow-lg shadow-white/5 group-hover:scale-105 transition-transform duration-300">
-            <AudioWaveform size={20} strokeWidth={2.5} />
+          {/* Logo Container */}
+          <div className="text-white group-hover:scale-105 transition-transform duration-300">
+            <Logo className="w-10 h-10" />
           </div>
           <span className="font-display text-2xl font-bold tracking-tight text-white">{APP_NAME}</span>
         </div>

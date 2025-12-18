@@ -1,5 +1,5 @@
 {
-  "name": "pulse---ai-music-practice",
+  "name": "aeon---ai-music-practice",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,10 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react-dom": "^19.2.3",
-    "recharts": "^3.6.0",
-    "react": "^19.2.3",
-    "lucide-react": "^0.561.0"
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "recharts": "2.12.0",
+    "lucide-react": "0.344.0",
+    "three": "0.160.0",
+    "framer-motion": "11.0.3"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",

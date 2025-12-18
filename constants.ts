@@ -1,6 +1,6 @@
 import { NavItem, UseCase } from './types';
 
-export const APP_NAME = "Pulse";
+export const APP_NAME = "Aeon";
 
 export const NAV_ITEMS: NavItem[] = [
   { label: "How it Works", href: "#how-it-works" },
@@ -10,29 +10,29 @@ export const NAV_ITEMS: NavItem[] = [
 
 export const USE_CASES: UseCase[] = [
   {
-    title: "Drummers",
-    description: "Generate instant drumless tracks. Lock in with the original bassist without the studio drums getting in the way.",
-    icon: "drums"
+    title: "Music Practice",
+    description: "Play along with any track. Remove the original drums to practice your groove, or isolate the solo to learn every note.",
+    icon: "practice"
   },
   {
-    title: "Guitarists",
-    description: "Dissect the solo note-for-note. Or mute the rhythm guitar to take the lead spot yourself.",
-    icon: "guitar"
+    title: "Ear Training",
+    description: "Hear bass lines and inner harmonies clearly. Perfect for transcription.",
+    icon: "ear_training"
   },
   {
-    title: "Bassists",
-    description: "Find the pocket. Bring the low end to the front to hear every ghost note and groove nuance.",
-    icon: "bass"
-  },
-  {
-    title: "Educators",
-    description: "Curriculum at speed. Create custom backing tracks and isolated examples for students in seconds.",
+    title: "Teaching",
+    description: "Create instant listening examples for students. Show, don't just tell.",
     icon: "education"
   },
   {
-    title: "Producers",
-    description: "Surgical sampling. Extract obscure sounds like cowbells, background synths, or crowd noise cleanly.",
-    icon: "search"
+    title: "Analysis",
+    description: "Understand arrangement structures layer by layer.",
+    icon: "analysis"
+  },
+  {
+    title: "Exploration",
+    description: "Discover textures hidden in the mix. Crowd noise, foley, acoustics.",
+    icon: "exploration"
   }
 ];
 
