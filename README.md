@@ -3,6 +3,18 @@
 ![Aeon Badge](https://img.shields.io/badge/Status-Pre--Launch-emerald) ![React](https://img.shields.io/badge/React-18-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue) ![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38bdf8)
 
 > **Aeon** is a high-performance landing page for an AI-powered music practice app. It features a cinematic "dark studio" aesthetic, immersive WebGL backgrounds, and interactive UI components designed to convert visitors into waitlist signups.
+>
+> <img width="1910" height="867" alt="image" src="https://github.com/user-attachments/assets/b252c4b1-cbc2-4690-9362-62cccc7f0e0c" />
+
+<img width="1915" height="811" alt="image" src="https://github.com/user-attachments/assets/a0f67eb8-f5a0-4cbe-a42c-b791754732ce" />
+
+<img width="1898" height="857" alt="image" src="https://github.com/user-attachments/assets/b9bef35f-f5ff-4bfb-8f68-9eb651e0ca2f" />
+
+![Uploading image.png…]()
+
+
+
+
 
 ## ✨ Features
 
